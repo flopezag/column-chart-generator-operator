@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 The Column chart generator operator is a WireCloud operator that provides the ability to plot column chats.
 
@@ -17,12 +17,11 @@ The Column chart generator operator is a WireCloud operator that provides the ab
 
 - `Chart Data Model`: The data model to be passed to the highcarts widget.
 
-# Usage
+## Usage
 
 Plug in the serie you want to plot to the `Data serie` endpoint and plug the output to the `Highcharts widget`.
 
 The `Label serie` input endpoint its not required.
-
 
 ## Reference
 

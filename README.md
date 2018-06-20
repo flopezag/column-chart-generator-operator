@@ -1,10 +1,8 @@
-Column chart generator operator
-======================
+# Column chart generator operator
 
 The Column chart generator operator is a WireCloud operator that provides the ability to plot column chats.
 
-Build
------
+## Build
 
 Be sure to have installed [Node.js](http://node.js) in your system. For example, you can install it on Ubuntu and Debian running the following commands:
 
@@ -55,7 +53,7 @@ If everything goes well, you will find a wgt file in the `dist` folder.
 
 - `Chart Data Model`: The data model to be passed to the highcarts widget.
 
-# Usage
+## Usage
 
 Plug in the serie you want to plot to the `Data serie` endpoint and plug the output to the `Highcharts widget`.
 
